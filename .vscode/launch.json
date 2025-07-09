@@ -9,7 +9,7 @@
             "request": "launch",
             "type": "dart",
             "program": "${file}",//üzerinde bulunan dosya sorunsuz şekilde başlar
-            //"console": "terminal"//veri almak için gerekli
+            "console": "terminal"//veri almak için gerekli
         }
     ]
 }
