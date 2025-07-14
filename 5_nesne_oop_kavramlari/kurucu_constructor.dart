@@ -40,6 +40,7 @@ class Araba{
     }
   
   }
+  
   */
     //marka belirtilen constructor
     Araba.modelYlsizAraba(this.marka){

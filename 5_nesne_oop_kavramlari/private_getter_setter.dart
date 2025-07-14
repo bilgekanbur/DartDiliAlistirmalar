@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'uyelik_islemler.dart';
 
 void main(List<String> args) {
