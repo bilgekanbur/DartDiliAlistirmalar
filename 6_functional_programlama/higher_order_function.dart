@@ -4,4 +4,23 @@ void main(List<String> args) {
   sayilar.forEach((int element){
     print(element);
   });
+
+  sayilar.forEach(callback);
+  adiniYazdir("emre");
+
+  kendiForEachYapim(sayilar, (sayi,index){
+      print("index değeri: $index, indexteki değeri $sayi");
+  });
+}
+void kendiForEachYapim(List liste, Function callback){
+  for (int i=0; i<liste.length;i++){
+    callback(liste[i],i);
+  }
+   
+}
+void adiniYazdir(String isim){
+  print(isim);
+}
+void callback(int deger){
+  print("değer $deger");
 }
